@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => BottomNavigationProvider(),
       child: MaterialApp(
-        title: 'Flutter Bottom Navigation with Provider',
         theme: ThemeData(
           primarySwatch: Colors.green,
           visualDensity: VisualDensity.adaptivePlatformDensity,
